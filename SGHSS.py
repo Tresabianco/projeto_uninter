@@ -61,4 +61,7 @@ def obter_consulta(id: int):
 def home():
     return {"mensagem": "Consultas marcadas no Sistema de Gestão Hospitalar e de Serviços de Saúde (SGHSS)"}
 
+#uvicorn SGHSS:app --reload (usar no terminal para rodar o API no navegador ou no Postman do endereço: http://127.0.0.1:8000)
+
+
 
